@@ -19,9 +19,11 @@ int main(){
 	cin >> radius;
 	cout << endl;
 	
+	//Adds formulas to circumference and area
 	circumference = pi * (2 * radius);
 	area = pi * (radius * radius);
 	
+	//Prints what the radius is, and what the circumference and area of the circle is
 	cout << "This is your radius: " << radius << endl;
 	cout << "This is the circumference of the circle: " << circumference << endl;
 	cout << "This is the area of the circle: " << area << endl;
